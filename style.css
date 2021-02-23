@@ -24,11 +24,31 @@ html * {
         margin:15px
 }
 
+.caixa{
+
+    background-color: 1F1F1F;
+    height: 400px;
+    width: 400px;
+    margin:  20px;
+    /* ALINHAMENTO DO TEXTO NA CAIXA */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.texto {
+    color: white;
+    font-size: 30px;
+
+}
 
 #principal {
     height: 600px;
     background-color:#5c5c5c;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
